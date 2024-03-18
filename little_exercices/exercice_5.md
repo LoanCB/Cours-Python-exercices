@@ -1,12 +1,11 @@
-# Savoir si le nombre donné est un palindrome
-
+```py
 def palindrome(number):
     print("original number", number)
     original_num = number
     
     # reverse the given number
     reverse_num = 0
-    while number > 0:
+    number > 0:
         reminder = number % 10
         reverse_num = (reverse_num * 10) + reminder
         number = number // 10
@@ -17,4 +16,5 @@ def palindrome(number):
     else:
         print("Given number is not palindrome")
 
-palindrome(121)
+(121)
+```
