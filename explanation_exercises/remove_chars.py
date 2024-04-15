@@ -1,5 +1,5 @@
 WORD = input()
-N = input()
+N = int(input())
 
-RESULT = WORD[N:]
+RESULT = WORD[N - 1:]
 print(RESULT)
